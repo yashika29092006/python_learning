@@ -1,36 +1,36 @@
-# def num(a,b):
-#     for i in range (a,b+1):
-#         print(i)
-# num(10,20)
+def num(a,b):
+    for i in range (a,b+1):
+        print(i)
+num(10,20)
 
-# def count(a,b,n):
-#     total=0
-#     for i in range(a,b+1):
-#         if i % 2 == 0:
-#             total=total+1
-#     print(total)
-#     if n == 0:
-#         print("invalid")
+def count(a,b,n):
+    total=0
+    for i in range(a,b+1):
+        if i % 2 == 0:
+            total=total+1
+    print(total)
+    if n == 0:
+        print("invalid")
 
-# count(10,20,2)
-# count(10,15,2)
-# count(10,10,2)
-# count(10,20,0)
+count(10,20,2)
+count(10,15,2)
+count(10,10,2)
+count(10,20,0)
 
-# def count(a,b,n):
-#     total = 0
-#     if n > 0:
-#         for i in range(a,b+1):
-#             if i % 2 == 0:
-#                 total=total+1
-#         print(total)
-#     else:
-#         print("invalid")
-# count(10,20,2)
-# count(10,15,2)
-# count(10,10,2)
-# count(10,20,0)
-# count(10,20,-1)
+def count(a,b,n):
+    total = 0
+    if n > 0:
+        for i in range(a,b+1):
+            if i % 2 == 0:
+                total=total+1
+        print(total)
+    else:
+        print("invalid")
+count(10,20,2)
+count(10,15,2)
+count(10,10,2)
+count(10,20,0)
+count(10,20,-1)
 
 def steps(a):
     if a < 1000:
