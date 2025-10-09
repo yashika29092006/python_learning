@@ -6,3 +6,6 @@ print("Sum = ",a+b)
 x = "Hello world!"
 print(x)
 
+# iteration
+y = "Yashika "
+print(y*5)
