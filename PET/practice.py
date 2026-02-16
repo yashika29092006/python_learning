@@ -55,7 +55,7 @@ for i in range (b,a+1,+1):
     print(n,"x",i,"=",n*i)
 
 # level 2
-palindrome
+# palindrome
 n=(input("enter the number:"))
 if n==n[::-1]:
     print("p")
