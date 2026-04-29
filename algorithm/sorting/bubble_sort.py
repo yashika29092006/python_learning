@@ -26,7 +26,20 @@ print(fibo(5))
 
 
 
-
+def bu(n):
+    if len(n)==0:
+        return 0
+    else:
+        swap = True
+        while swap:
+            for i in range(0,len(n)-1):
+                swap = False
+                if n[i] > n[i+1]:
+                    temp = n[i]
+                    n[i] = n[i+1]
+                    n[i+1] = temp
+                    swap = True
+            print(n)
 
 
 
